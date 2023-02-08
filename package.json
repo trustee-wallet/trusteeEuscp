@@ -1,0 +1,26 @@
+{
+  "name": "euscp",
+  "version": "1.0.2",
+  "description": "Euscp library for node js",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "jest": {
+    "testEnvironment": "jsdom",
+    "transformIgnorePatterns": [
+      "/node_modules/(?!native-base)/"
+    ]
+  },
+  "keywords": [
+    "euscp"
+  ],
+  "author": "Roman-Popil",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.9",
+    "@babel/preset-env": "^7.16.11",
+    "babel-jest": "^27.5.1",
+    "jest": "^27.5.1"
+  }
+}
